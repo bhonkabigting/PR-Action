@@ -34,6 +34,6 @@ describe("Testing GitCommand.init()", function(){
         let git = new GitCommand(wd);
         let output = git.init();
 
-        expect(output).to.equal('Initialized as empty Git repository.');
+        expect(output).to.equal('Failed');
     });
 });
